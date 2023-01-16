@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Enforce mscvrt Dlls to native then builtin - from Proton
 	if [ "$_msvcrt_nativebuiltin" = "true" ]; then

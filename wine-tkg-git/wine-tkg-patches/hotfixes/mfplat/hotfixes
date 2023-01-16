@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Apply changes related Media Foundation, DirectShow runtime and filters and Wine Gstreamer support from 7.14+
 if ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor 4853f65c844de8277b8b0420df1a2cdb1c5b17c8 HEAD  && ! git merge-base --is-ancestor 8c8cf0896bf80ce5a30fff84a944dd29c550aefb HEAD ); then # https://github.com/wine-staging/wine-staging/commit/05ea40b9366e4ee28a2baa461853b778230cbad1

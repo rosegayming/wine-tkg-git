@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Add Rémi's pending fixes for hidclass - https://source.winehq.org/patches/data/215195 - https://source.winehq.org/patches/data/215197
 if ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor afd63fa6a75cfabac450c42a3e9ccd78596b7728 HEAD && ! git merge-base --is-ancestor 9421dd2b3cd7114bf390c3ffcec30ab4bc95b7ef HEAD ); then

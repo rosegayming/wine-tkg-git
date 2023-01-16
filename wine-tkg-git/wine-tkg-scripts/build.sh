@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 _prebuild_common() {
 	cd "${srcdir}"

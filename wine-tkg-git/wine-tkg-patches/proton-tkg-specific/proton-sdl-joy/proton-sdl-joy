@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# SDL Joystick support - from Proton
 	if [ "$_sdl_joy_support" = "true" ] && [ "$_use_staging" = "true" ]; then

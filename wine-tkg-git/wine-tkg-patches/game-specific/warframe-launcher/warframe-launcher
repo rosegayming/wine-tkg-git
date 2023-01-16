@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Fix for Warframe Launcher failing to update itself - https://bugs.winehq.org/show_bug.cgi?id=33845 https://bugs.winehq.org/show_bug.cgi?id=45701 - Merged in staging 8b930ae and mainline 04ccd99
 	if [ "$_warframelauncher_fix" = "true" ]; then

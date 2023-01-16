@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Selective reverts to fix steamclient swap on proton
 if (cd "${srcdir}"/"${_winesrcdir}" && ! git merge-base --is-ancestor ba74c5c6984bb19aade5ae0dfaa71b0f77d5786e HEAD ); then

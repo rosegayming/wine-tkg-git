@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Proton CPU topology override - depends on protonify and fsync
 	if ( [ "$_staging_esync" = "true" ] || [ "$_use_esync" = "true" ] ) && [ "$_use_fsync" = "true" ] && [ "$_protonify" = "true" ] && ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor 6f158754435f403864052e595ab627dadac2666f HEAD ); then

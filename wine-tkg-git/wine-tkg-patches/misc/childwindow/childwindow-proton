@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Standalone child window support for vk - Fixes World of Final Fantasy and others - https://bugs.winehq.org/show_bug.cgi?id=45277 - legacy patchset for older trees applied at an earlier stage in the script
 	if ( [ "$_childwindow_fix" = "true" ] && [ "$_proton_fs_hack" != "true" ] && [ "$_use_staging" = "true" ] ); then

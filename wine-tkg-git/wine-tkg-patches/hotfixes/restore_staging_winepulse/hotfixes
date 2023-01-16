@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Disable _prefer_external_faudio on 227a127+
 if ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor 227a1275b14a2ffd71a4d0c621cb655e3576ad02 HEAD ); then

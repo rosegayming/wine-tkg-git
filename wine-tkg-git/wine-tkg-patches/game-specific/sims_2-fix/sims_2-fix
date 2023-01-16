@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# The Sims 2 fix - https://bugs.winehq.org/show_bug.cgi?id=8051
 	if [ "$_sims2_fix" = "true" ]; then

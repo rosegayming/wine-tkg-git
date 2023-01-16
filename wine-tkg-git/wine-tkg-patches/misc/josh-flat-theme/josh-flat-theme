@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
     # Joshua Ashton's take on making wine dialogs and menus less win95-ish - https://github.com/Joshua-Ashton/wine/tree/wine-better-theme
     if [ "$_use_josh_flat_theme" = "true" ]; then

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Created by: Tk-Glitch <ti3nou at gmail dot com>
 

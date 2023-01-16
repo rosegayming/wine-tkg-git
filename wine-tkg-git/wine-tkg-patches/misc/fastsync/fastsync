@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# fastsync / winesync
 	if [ "$_use_fastsync" = "true" ]; then

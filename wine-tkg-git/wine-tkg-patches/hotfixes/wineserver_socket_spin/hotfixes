@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # 737fe1f introduced a regression for some, resulting in high CPU usage due to network handling. Workaround by openglfreak for a757701+ - https://github.com/Frogging-Family/wine-tkg-git/issues/407
 if ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor 737fe1f99337ab999cf67fb1acdf96f70020b3d4 HEAD && ! git merge-base --is-ancestor 361435f6095f8c759979600b06ed28785e7b3aec HEAD ); then

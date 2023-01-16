@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Magic The Gathering: Arena crash fix - (>aa0c4bb5e72caf290b6588bc1f9931cc89a9feb6)
 	if [ "$_mtga_fix" = "true" ] && git merge-base --is-ancestor aa0c4bb5e72caf290b6588bc1f9931cc89a9feb6 HEAD && ! git merge-base --is-ancestor 0c249e6125fc9dc6ee86b4ef6ae0d9fa2fc6291b HEAD; then

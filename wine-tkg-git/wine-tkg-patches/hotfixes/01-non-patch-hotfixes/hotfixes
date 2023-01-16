@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Explicitly enforce _clock_monotonic to disable on 8.0+ - This is not strictly a need, but the patchset isn't useful anymore and breaks stuff, so let's get rid of it smoothly and silently
 if ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor 772badd0d7f3286a7881a71f16fad417e2d7787d HEAD ); then

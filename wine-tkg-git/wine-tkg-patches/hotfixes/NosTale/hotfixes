@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
   # Fix NosTale mouse bug (very big thanks to Morsisko, NosApki team and Linux community) - https://github.com/PSzczepanski1996/proton-ge-nostale/commit/a4078f03775d0a2cc45c7fe048893ab33fc6acfc
   if [ "$_unfrog" = "true" ]; then

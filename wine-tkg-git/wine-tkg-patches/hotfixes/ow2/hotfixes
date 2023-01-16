@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Fix for older than 7.14 trees crashing after a few seconds in game (7.0 minimum target)
 if ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor c7c729c0db7c3e246182a890de4c606f3e394d0e HEAD && ! git merge-base --is-ancestor 4bf9d2403f269e7f3595ad075a4afee9adbda51f HEAD ); then

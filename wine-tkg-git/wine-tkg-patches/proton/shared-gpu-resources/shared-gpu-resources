@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Shared gpu resources support https://github.com/doitsujin/dxvk/pull/2516 https://github.com/doitsujin/dxvk/pull/2608 https://github.com/HansKristian-Work/vkd3d-proton/pull/1175
 	if [ "$_shared_gpu_resources" = "true" ] && ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor c86955d3806879fc97b127730e9fb90e232710a7 HEAD && ! git merge-base --is-ancestor a5e39c42c8f5da421220391e44e11536a1c3b28f HEAD ); then

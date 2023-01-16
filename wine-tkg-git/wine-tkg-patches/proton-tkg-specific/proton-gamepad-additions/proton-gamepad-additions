@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	    # Gamepad additions - from Proton
 	    if ( [ "$_gamepad_additions" = "true" ] && [ "$_use_staging" = "true" ] && ! git merge-base --is-ancestor 6373792eec0f122295723cae77b0115e6c96c3e4 HEAD ); then

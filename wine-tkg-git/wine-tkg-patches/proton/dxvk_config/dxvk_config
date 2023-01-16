@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Add support for dxvk_config library to Wine's dxgi for Proton
 	if ( [ "$_use_vkd3dlib" = "false" ] && [ "$_EXTERNAL_INSTALL" = "proton" ] && [ "$_protonify" = "true" ] && [ "$_unfrog" != "true" ] ) && git merge-base --is-ancestor 74dc0c5df9c3094352caedda8ebe14ed2dfd615e HEAD; then

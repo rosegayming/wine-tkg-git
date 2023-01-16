@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Disable some staging patchsets breaking CEG in Proton
 if [ "$_EXTERNAL_INSTALL" = "proton" ] && ( cd "${srcdir}"/"${_stgsrcdir}" && ! git merge-base --is-ancestor 1ed196f0effa262b297705f36975261f44001417 HEAD ); then

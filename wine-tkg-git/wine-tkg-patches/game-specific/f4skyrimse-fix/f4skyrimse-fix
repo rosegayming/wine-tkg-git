@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Workaround for F4SE/SkyrimSE Script Extender
 	# https://github.com/hdmap/wine-hackery/tree/master/f4se

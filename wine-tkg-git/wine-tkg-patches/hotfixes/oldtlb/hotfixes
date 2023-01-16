@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Revert data-only mode switch for usp10.dll tzres.dll stdole2.tlb shdoclc.dll sfc.dll security.dll normaliz.dll msimsg.dll mshtml.tib mferror.dll lz32.dll light.msstyles icmp.dll activeds.tlb
 # Else they are not getting loaded in Proton

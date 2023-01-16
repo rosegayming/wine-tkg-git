@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # bcrypt fixes for RDR2
 if [ "$_use_staging" = "true" ] && ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor 2ad44002da683634de768dbe49a0ba09c5f26f08 HEAD ); then

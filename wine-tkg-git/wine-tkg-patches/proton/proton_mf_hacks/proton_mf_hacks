@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Workarounds to prevent crashes on some mf functions
 	if ! git merge-base --is-ancestor 437bc14ac352df8b34819f7df6aab0b0fb04dddd HEAD; then

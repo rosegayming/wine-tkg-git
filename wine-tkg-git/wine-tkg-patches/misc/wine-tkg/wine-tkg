@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	if [ -z "$_localbuild" ]; then
 	  if [ "$_untag" != "true" ]; then

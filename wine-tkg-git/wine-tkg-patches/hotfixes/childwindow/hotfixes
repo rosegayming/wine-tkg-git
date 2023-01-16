@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # 6dcaff4 breaks childwindow patches (from fshack or standalone), so let's revert the changes for now
 if ( cd "${srcdir}"/"${_winesrcdir}" && ! git merge-base --is-ancestor 548bc54bf396d74b5b928bf9be835272ddda1886 HEAD ); then

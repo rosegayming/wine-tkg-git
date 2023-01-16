@@ -1737,7 +1737,7 @@ class Session:
         makedirs(tmpdir)
 
         with open(tmpdir + "winedbg", "w") as f:
-            f.write("#!/bin/bash\n")
+            f.write("#!/usr/bin/env bash\n")
             f.write("#Run winedbg with args\n\n")
             f.write("cd \"" + os.getcwd() + "\"\n")
             self.dump_dbg_env(f)
@@ -1745,7 +1745,7 @@ class Session:
         os.chmod(tmpdir + "winedbg", 0o755)
 
         with open(tmpdir + "winedbg_run", "w") as f:
-            f.write("#!/bin/bash\n")
+            f.write("#!/usr/bin/env bash\n")
             f.write("#Run winedbg and prepare to run game or given program\n\n")
             f.write("cd \"" + os.getcwd() + "\"\n")
             f.write("DEF_CMD=(")
@@ -1762,7 +1762,7 @@ class Session:
         os.chmod(tmpdir + "winedbg_run", 0o755)
 
         with open(tmpdir + "gdb_attach", "w") as f:
-            f.write("#!/bin/bash\n")
+            f.write("#!/usr/bin/env bash\n")
             f.write("#Run winedbg in gdb mode and auto-attach to already-running program\n\n")
             f.write("cd \"" + os.getcwd() + "\"\n")
             f.write("EXE_NAME=${1:-\"" + exe_name + "\"}\n")
@@ -1777,7 +1777,7 @@ class Session:
         os.chmod(tmpdir + "gdb_attach", 0o755)
 
         with open(tmpdir + "gdb_run", "w") as f:
-            f.write("#!/bin/bash\n")
+            f.write("#!/usr/bin/env bash\n")
             f.write("#Run winedbg in gdb mode and prepare to run game or given program\n\n")
             f.write("cd \"" + os.getcwd() + "\"\n")
             f.write("DEF_CMD=(")
@@ -1794,7 +1794,7 @@ class Session:
         os.chmod(tmpdir + "gdb_run", 0o755)
 
         with open(tmpdir + "run", "w") as f:
-            f.write("#!/bin/bash\n")
+            f.write("#!/usr/bin/env bash\n")
             f.write("#Run game or given command in environment\n\n")
             f.write("cd \"" + os.getcwd() + "\"\n")
             f.write("DEF_CMD=(")

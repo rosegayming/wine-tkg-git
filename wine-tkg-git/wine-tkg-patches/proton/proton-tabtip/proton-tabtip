@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	  # tabtip - 7.2+
 	  if [ "$_EXTERNAL_INSTALL" = "proton" ] && [ "$_tabtip" = "true" ]; then

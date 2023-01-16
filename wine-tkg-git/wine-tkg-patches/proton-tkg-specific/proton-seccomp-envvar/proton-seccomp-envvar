@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	        if [[ ! ${_staging_userargs[*]} =~ "ntdll-Syscall_Emulation" ]] && ( cd "${srcdir}"/"${_winesrcdir}" && ! git merge-base --is-ancestor 0c249e6125fc9dc6ee86b4ef6ae0d9fa2fc6291b HEAD ); then
 	          if ( cd "${srcdir}"/"${_stgsrcdir}" && git merge-base --is-ancestor 805f2e9252de5b4de115335f803db4e753f66ff2 HEAD ); then

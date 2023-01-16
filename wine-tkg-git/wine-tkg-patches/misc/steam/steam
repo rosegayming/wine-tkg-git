@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# steam crossover hack for store/web functionality
 	# https://bugs.winehq.org/show_bug.cgi?id=39403

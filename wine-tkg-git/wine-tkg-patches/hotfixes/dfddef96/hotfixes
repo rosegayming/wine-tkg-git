@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Frequent freezes with staging's ntdll-NtAlertThreadByThreadId patch - https://bugs.winehq.org/show_bug.cgi?id=50448#c15
 # There is also a known perf regression which may or may not be improved by this hotfix

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Low latency alsa audio - https://blog.thepoon.fr/osuLinuxAudioLatency/
 	if [ "$_lowlatency_audio" = "true" ] && [ "$_use_staging" = "true" ]; then

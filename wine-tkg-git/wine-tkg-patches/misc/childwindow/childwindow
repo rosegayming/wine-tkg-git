@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Child window support for vk - Fixes World of Final Fantasy and others - https://bugs.winehq.org/show_bug.cgi?id=45277 - legacy (newer patchset from proton fshack applied later in the script for newer trees)
 	if [ "$_childwindow_fix" = "true" ] && ! git merge-base --is-ancestor d318f43559dbb0093e22bab1aa0eb9dc01170cc2 HEAD; then

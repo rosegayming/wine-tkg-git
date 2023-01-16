@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Proton compatible rawinput patchset
 	if [ "$_proton_rawinput" = "true" ] && [ "$_proton_fs_hack" = "true" ] && [ "$_use_staging" = "true" ] && git merge-base --is-ancestor cfcc280905b7804efde8f42bcd6bddbe5ebd8cad HEAD; then

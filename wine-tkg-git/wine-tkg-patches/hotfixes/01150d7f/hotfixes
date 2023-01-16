@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Esync/Fsync killer - mainline reverts
 # This reverts all breaking server and ntdll changes as well as a few related kernel32 and kernelbase patches. Some patches were backported and are applied below.

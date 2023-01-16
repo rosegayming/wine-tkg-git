@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	  # Legacy wine.gaming.input patchset (Death Stranding)
 	  if git merge-base --is-ancestor 1ec8bf9b739f1528b742169670eac2350b33a7d4 HEAD; then

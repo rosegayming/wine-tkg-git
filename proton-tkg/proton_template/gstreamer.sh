@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
   # mpeg2dec and x264 are kinda widely used but unavailable as lib32 in Arch repos - enable optionally
   _use_lib32_mpeg2dec_and_x264="false"

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Revert d4259ac8e9326a8173d6f83f0d525c97b90a1da0 which breaks compiling the steam helper
 if [ "$_EXTERNAL_INSTALL" = "proton" ]; then

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# GLSL toggle patch - Allows for use of ARB instead of GLSL
 	if [ "$_GLSL_toggle" = "true" ] && [ "$_use_staging" = "true" ] && [ "$_use_legacy_gallium_nine" != "true" ]; then

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Use faudio for xaudio2
 	if git merge-base --is-ancestor d5a372abbba2e174de78855bdd4a004b56cdc006 HEAD; then # include: Move inline assembly definitions to a new wine/asm.h header.

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# esync
 	if [ "$_use_esync" = "true" ]; then

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Set a custom fake refresh rate for virtual desktop
 	if [ -n "$_fake_refresh_rate" ] && ( ! git merge-base --is-ancestor 6f305dd881e16f77f9eb183684d04b0b8746b769 HEAD || [ "$_proton_fs_hack" = "true" ] ); then

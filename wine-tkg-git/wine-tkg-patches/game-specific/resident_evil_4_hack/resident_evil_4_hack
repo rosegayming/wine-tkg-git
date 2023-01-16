@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Resident Evil 4 hack - https://bugs.winehq.org/show_bug.cgi?id=46336
 	if [ "$_re4_fix" = "true" ] && [ "$_wined3d_additions" = "false" ]; then

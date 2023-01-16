@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Proton Bcrypt patches
 	if [ "$_proton_bcrypt" = "true" ]; then

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	        if ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor 656edbb508d51cbe3155d856ee3f2c27a6cd4cba HEAD ); then
 	          _patchname='proton-steam-bits.patch' && _patchmsg="Using Steam-specific Proton-tkg patches (staging) 3/3" && nonuser_patcher

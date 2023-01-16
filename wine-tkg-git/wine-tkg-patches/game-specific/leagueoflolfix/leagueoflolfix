@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Fix for LoL 9.20+ crashing - https://bugs.winehq.org/show_bug.cgi?id=47198
 	if [ "$_lol920_fix" = "true" ] && [ "$_use_staging" = "true" ]; then

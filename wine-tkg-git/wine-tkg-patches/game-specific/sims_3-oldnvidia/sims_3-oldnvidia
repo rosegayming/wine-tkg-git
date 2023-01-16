@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# The Sims 3 fix - reverts 6823abd521c0c12d20d9171fb5ae8b300009d082 to fix Sims 3 on older than 415.xx nvidia drivers - https://bugs.winehq.org/show_bug.cgi?id=45361
 	if [ "$_sims3_fix" = "true" ]; then

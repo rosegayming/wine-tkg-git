@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Legacy Proton Fullscreen inline patching
 	if [ "$_unfrog" != "true" ] && [ "$_proton_rawinput" = "true" ] && [ "$_proton_fs_hack" = "true" ] && [ "$_use_staging" = "true" ] && ( cd "${srcdir}"/"${_stgsrcdir}" && git merge-base --is-ancestor 938dddf7df920396ac3b30a44768c1582d0c144f HEAD ); then

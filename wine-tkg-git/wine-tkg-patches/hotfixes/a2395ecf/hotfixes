@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Reverts due to broken input on The Witcher 3 and others - https://bugs.winehq.org/show_bug.cgi?id=53487
 if ( [ "$_use_staging" = "true" ] && [ "$_proton_fs_hack" != "true" ] || [ "$_use_staging" = "false" ] ) && ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor a2395ecf963b85ca0ea2f002982af07fc8241db9 HEAD && ! git merge-base --is-ancestor a42b22e027e2be20f7f3a924eddeee92b7bbc99d HEAD ); then

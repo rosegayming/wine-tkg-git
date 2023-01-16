@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Patch opencl.h header to it's correct location without breaking successive autoconf call, as it was done by the sed workaround
 if ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor 9207927d950ce8ab41a6d8c25cfa593ce770d5cf HEAD ); then

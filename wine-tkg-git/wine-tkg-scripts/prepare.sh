@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 _exit_cleanup() {
   if [ "$pkgver" != "0" ]; then

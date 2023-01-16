@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Proton Quake Champions fixes from Paul Gofman
 	if [ "$_quake_champions_fix" = "true" ] && [ "$_protonify" = "true" ] && [ "$_use_staging" = "true" ] && ( cd "${srcdir}"/"${_stgsrcdir}" && ! git merge-base --is-ancestor 2e9f238732289907b4f07335d826ac3e7882f5ba HEAD ); then

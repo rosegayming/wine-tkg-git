@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Proton Battleye
 	if [ "$_proton_battleye_support" = "true" ] && [ "$_unfrog" != "true" ]; then

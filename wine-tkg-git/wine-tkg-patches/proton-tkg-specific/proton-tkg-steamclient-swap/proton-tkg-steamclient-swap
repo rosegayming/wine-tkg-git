@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	if [ "$_EXTERNAL_INSTALL" = "proton" ] && [ "$_unfrog" != "true" ]; then
 	  source "$_where"/wine-tkg-patches/proton-tkg-specific/proton-staging/staging-winex11-key_translation

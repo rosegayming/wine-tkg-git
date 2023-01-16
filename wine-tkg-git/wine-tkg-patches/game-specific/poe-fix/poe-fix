@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Patch to allow Path of Exile to run with DirectX11
 	# https://bugs.winehq.org/show_bug.cgi?id=42695

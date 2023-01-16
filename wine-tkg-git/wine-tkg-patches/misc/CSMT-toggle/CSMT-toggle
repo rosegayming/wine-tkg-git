@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# CSMT toggle patch - Corrects the CSMT toggle to be more logical
 	if [ "$_CSMT_toggle" = "true" ] && [ "$_use_staging" = "true" ]; then

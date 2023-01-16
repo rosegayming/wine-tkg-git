@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Revert 789c1db1, which breaks -at least- The Witcher 3
 if ( cd "${srcdir}"/"${_winesrcdir}" && ! git merge-base --is-ancestor 1722615b06cba2f04fcd0ca69bbc33d963fb143f HEAD ); then

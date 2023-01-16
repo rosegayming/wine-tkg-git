@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Launch with dedicated gpu desktop entry patch
 	if [ "$_launch_with_dedicated_gpu" = "true" ]; then

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Fixes (partially) systray on plasma 5 - https://bugs.winehq.org/show_bug.cgi?id=38409
 	if [ "$_plasma_systray_fix" = "true" ] && ( cd "${srcdir}"/"${_winesrcdir}" && ! git merge-base --is-ancestor 8d6c33c3bfca4f4ed7b7653fd0b82dfbc12bd3cb HEAD ); then

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [[ "$_custom_wine_source" = *"ValveSoftware"* ]]; then
   _unfrog="true"

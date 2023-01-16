@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # DXGIGetDebugInterface1 TRACE try to read values memory address of parameters, but those are not always memory addresses.
 if ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor 08cccb522f19b3dc5b397f7c1c519604b601cee0 HEAD); then

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 _debuntu_64() {
   local _as_root="sudo "; (( EUID )) || _as_root=""

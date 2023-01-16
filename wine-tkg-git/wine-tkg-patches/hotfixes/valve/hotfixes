@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # When not building proton, get rid of steam-specific patches
 if [ "$_EXTERNAL_INSTALL" != "proton" ]; then

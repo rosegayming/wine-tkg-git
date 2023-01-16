@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 	# Proton EAC
 	if [ "$_proton_eac_support" = "true" ] && [ "$_unfrog" != "true" ]; then

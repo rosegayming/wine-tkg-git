@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Fix steamhelper breaking with 0c19e2e
 if [ "$_proton_use_steamhelper" = "true" ] && ( cd "${srcdir}"/"${_winesrcdir}" && git merge-base --is-ancestor 0c19e2e487d36a89531daf4897c0b6390d82a843 HEAD ) && ( cd "${srcdir}"/"${_winesrcdir}" && ! git merge-base --is-ancestor 27040a4f009f1e35a540882dc150d14431de64a8 HEAD ); then
